@@ -1,0 +1,46 @@
+*.log
+# 🧠 Python 관련
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.env
+*.log
+
+# 📦 패키지/환경
+.venv/
+env/
+venv/
+
+# 🧪 학습 관련 체크포인트 / 결과물
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+output/
+finetune.log
+
+# 🖼️ 대용량 이미지 및 데이터
+images/
+ko_images/
+data/
+ko_data/
+
+# 🛠️ 시스템/개인 설정
+.bash_history
+.bashrc
+.cache/
+.dotnet/
+.gitconfig
+.gnupg/
+.profile
+.ssh/
+.triton/
+.vscode-server/
+.DS_Store
+
+# 🔐 SSH 키나 민감 정보
+id_rsa*
+*.pem
